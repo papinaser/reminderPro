@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+##How to publish on github pges?
+after commit and push changes to github do these steps :
+1. Add "homepage": "http://<username>.github.io/<repo-name>" to your package.json. Replace <username> and <repo-name> with the values that you used — my values would be papinaser and reminderPro.
+2. Install gh-pages as a dev dependency : 
+    yarn add -D gh-pages
+3. Add 2 scripts to your package.json :
+    "predeploy": "npm run build","deploy": "gh-pages -d build"
+4. Finally, run npm deploy and visit the URL that you specified in the homepage.
+   And now you have a reminder Pro clone in production!
+
 ## Available Scripts
 
 In the project directory, you can run:
