@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##How to publish on github pges?
+How to publish on github pges?
 after commit and push changes to github do these steps :
-1. Add "homepage": "http://<username>.github.io/<repo-name>" to your package.json. Replace <username> and <repo-name> with the values that you used — my values would be papinaser and reminderPro.
+1. Add "homepage": "http://username.github.io/repo-name" to your package.json. Replace username and repo-name with the values that you used — my values would be papinaser and reminderPro.
 2. Install gh-pages as a dev dependency : 
     yarn add -D gh-pages
 3. Add 2 scripts to your package.json :
